@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>XiaoNSWeb</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="x-bg">
+        <div class="x-view">
+            <div class="x-title">
+                <span>小农水技术文档</span>
+            </div>
+            <div class="x-pro first-pro">
+                <span>遇到的问题</span>
+            </div>
+            <div class="x-pro second-pro">
+                <span>解决的问题</span>
+            </div>
+            <div class="x-msg first-msg">
+                <span>技术</span>
+            </div>
+            <div class="x-msg second-msg">
+                <span>维修</span>
+            </div>
+            <div class="x-msg third-msg">
+                <span>管护</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function(){
+        $(".first-msg").click(function(){
+            window.open("html/jishu.html");
+        })
+        $(".second-msg").click(function(){
+            window.open("html/weixiu.html");
+        })
+        $(".third-msg").click(function(){
+            window.open("html/guanhu.html");
+        })
+    })
+</script>
+</html>

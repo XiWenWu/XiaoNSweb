@@ -1,0 +1,63 @@
+.x-bg {
+  width: 100%;
+  height: 1200px;
+  background: url("../res/bg.jpg")no-repeat;
+  background-position:center;
+}
+.x-view {
+  width: 490px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 150px;
+  background-color: #0e90d2;
+}
+.x-title {
+  width: 470px;
+  height: 60px;
+  position: absolute;
+  background-color: #0000ff;
+  top: 10px;
+  left: 10px;
+}
+.x-view > .x-title > span {
+  font-size: 30px;
+  line-height: 60px;
+  color: #7ab5d3;
+}
+.x-pro {
+  width: 230px;
+  height: 150px;
+  background-color: #0000ff;
+}
+.first-pro {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+.second-pro {
+  position: absolute;
+  top: 80px;
+  left: 250px;
+}
+.x-msg {
+  width: 150px;
+  height: 150px;
+  background-color: #0000ff;
+}
+.first-msg {
+  position: absolute;
+  top: 240px;
+  left: 10px;
+}
+.second-msg {
+  position: absolute;
+  top: 240px;
+  left: 170px;
+}
+.third-msg {
+  position: absolute;
+  top: 240px;
+  left: 330px;
+}
