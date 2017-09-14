@@ -1,3 +1,83 @@
+.i-bg {
+  /*background: url("../res/bg.jpg") no-repeat;*/
+  /*background-position:center;*/
+}
+.i-view {
+  margin: auto;
+  background-color: #f9f9f9;
+  width: 1200px;
+}
+.i-h2 {
+  text-align: center;
+}
+.view-title {
+  height: 80px;
+}
+.title-logo > img {
+  width: 180px;
+  height: 60px;
+  margin: 10px;
+  float: left;
+}
+.title-msg {
+  float: left;
+  width: 240px;
+  height: 40px;
+  margin:20px 0;
+}
+.title-msg > span {
+  line-height: 20px;
+  border-left: 2px solid #999999;
+  font-size: 16px;
+  padding-left: 8px;
+  color: #999999;
+}
+.view-panel {
+  margin:20px;
+}
+.view-btn > h3 {
+  padding-left: 10px;
+}
+.btn-all {
+  height: 350px;
+  width: 660px;
+  margin: auto;
+}
+.one-btn {
+  float: inherit;
+  float: left;
+  height: 330px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f5f6f7;
+  border: 1px solid #cccccc;
+}
+.one-btn > span {
+  text-align: center;
+  display: block;
+  margin: 20px;
+}
+.one-btn > img {
+  width: 100px;
+  height: 100px;
+}
+.i-bottom {
+  height: 80px;
+  text-align: center;
+}
+.i-bottom > p {
+  font-size: 20px;
+  line-height: 80px;
+}
+
+
+
+
+
+
+
+/* index.html */
 .x-bg {
   width: 100%;
   height: 1200px;
@@ -9,7 +89,7 @@
   height: 400px;
   margin: auto;
   position: relative;
-  text-align: center;
+  text-align: center;d
   top: 150px;
   background-color: #0e90d2;
 }

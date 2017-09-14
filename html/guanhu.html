@@ -4,18 +4,61 @@
     <meta charset="utf-8">
     <title>管护页面</title>
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/jishu.css"/>
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div>
+<div>
+    <div class="js-title">
         <span>管护页面</span>
     </div>
+    <div class="js-body">
+        <div class="first-body">
+            <p>
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+            </p>
+        </div>
+        <div class="second-body">
+            <img src="../res/guanhu-001.png">
+        </div>
+        <div class="first-body">
+            <p>
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+                管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,管护说明,
+            </p>
+        </div>
+        <div class="second-body">
+            <img src="../res/guanhu-001.png">
+        </div>
+        <div class="third-body">
+            <div>
+                <span>上传记录</span>
+            </div>
+            <div class="js-list">
+                <p>哒哒哒上传了一张管护图片</p>
+            </div>
+        </div>
+
+    </div>
+</div>
 </body>
 <script>
     $(document).ready(function(){
 
+        var name1 = new Array("王尼玛","小和尚","陆巡","蒋介石");
+        var name2 = new Array("管护图片","雨量信息","维修图片","施工信息");
+
+        setInterval(function(){
+            $(".js-list").append("<p>"+name1[Math.ceil(Math.random()*3)]+"上传了"+name2[Math.ceil(Math.random()*3)]+"</p>")
+        },1000);
     })
 </script>
 </html>
