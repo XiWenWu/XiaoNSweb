@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a89bfa5-003d-4186-9363-c7defa174e2f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/pro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/1003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/1004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/guanhu-001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/jishu-001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/jishu-002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/jishu-003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/jishu-004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/jishu-005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/jishu-101.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/weixiu-001.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jishu.css" afterPath="$PROJECT_DIR$/css/jishu.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/guanhu.html" afterPath="$PROJECT_DIR$/html/guanhu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/jishu.html" afterPath="$PROJECT_DIR$/html/jishu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/weixiu.html" afterPath="$PROJECT_DIR$/html/weixiu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index1.html" afterPath="$PROJECT_DIR$/index1.html" />
     </list>
     <ignored path="XiaoNSweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +37,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="guanhu.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="guanhu.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/guanhu.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.625">
-                  <caret line="25" column="23" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.49931973">
+                  <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
                   <folding>
                     <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -54,11 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="weixiu.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="weixiu.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/weixiu.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.34829932">
-                  <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+                <state vertical-scroll-proportion="-16.666666">
+                  <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
                   <folding>
                     <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -105,8 +110,8 @@
           <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3469388">
-                  <caret line="139" column="12" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="12" />
+                <state vertical-scroll-proportion="0.10748299">
+                  <caret line="142" column="14" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -135,10 +140,10 @@
         <option value="$PROJECT_DIR$/html/pro.html" />
         <option value="$PROJECT_DIR$/html/jishu.html" />
         <option value="$PROJECT_DIR$/html/table.html" />
-        <option value="$PROJECT_DIR$/html/guanhu.html" />
         <option value="$PROJECT_DIR$/css/jishu.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/html/weixiu.html" />
+        <option value="$PROJECT_DIR$/html/guanhu.html" />
       </list>
     </option>
   </component>
@@ -148,6 +153,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1356" />
     <option name="height" value="877" />
@@ -311,7 +317,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1356" height="877" extended-state="6" />
+    <frame x="4" y="23" width="1356" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -516,11 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/jishu-001.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -588,11 +589,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/1004.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/1005.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -622,16 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/guanhu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.625">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/jishu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.333333">
@@ -644,8 +630,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/weixiu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34829932">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="-16.666666">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guanhu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49931973">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -654,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388">
-          <caret line="139" column="12" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.10748299">
+          <caret line="142" column="14" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
           <folding />
         </state>
       </provider>
