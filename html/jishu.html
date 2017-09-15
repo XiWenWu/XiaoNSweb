@@ -5,60 +5,92 @@
     <title>技术页面</title>
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../css/jishu.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <div>
-        <div class="js-title">
-            <span>技术页面</span>
+<body class="i-bg">
+    <div class="i-view">
+        <div class="view-title">
+            <div class="title-logo">
+                <img src="../res/logo.png">
+                <div class="title-msg">
+                    <span>启于创新 卓于超越</span><br>
+                    <span>做最专业的云服务公司</span>
+                </div>
+            </div>
+        </div>
+        <div class="i-h2">
+            <h2>远安县水利工程信息技术页面介绍</h2>
         </div>
         <div class="js-body">
-            <div class="first-body">
-                <p>
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                </p>
-            </div>
-            <div class="second-body">
-                <img src="../res/jishu-001.png">
-            </div>
-            <div class="first-body">
-                <p>
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                    技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,技术说明,
-                </p>
-            </div>
-            <div class="second-body">
-                <img src="../res/jishu-002.png">
-            </div>
-            <div class="third-body">
-                <div>
-                    <span>上传记录</span>
+            <div class="body-img">
+                <div class="img-div">
+                    <img src="../res/1001.png">
                 </div>
-                <div class="js-list">
-                    <p>哒哒哒上传了一张管护图片</p>
+                <div class="img-div">
+                    <img src="../res/1002.png">
                 </div>
             </div>
-
+        </div>
+        <div style="clear: both;"></div>
+        <div class="js-btn">
+            <button type="button" class="btn btn-primary" onclick="jumpToJishu()">上传记录详情</button>
+        </div>
+        <div class="i-bottom">
+            <p>武汉云水信息技术有限公司版权所有 鄂ICP备16009961号-2</p>
         </div>
     </div>
+
 </body>
+<!--<body>-->
+    <!--<div>-->
+        <!--<div class="view-title">-->
+            <!--<div class="title-logo">-->
+                <!--<img src="res/logo.png">-->
+                <!--<div class="title-msg">-->
+                    <!--<span>启于创新 卓于超越</span><br>-->
+                    <!--<span>做最专业的云服务公司</span>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="js-title">-->
+            <!--<span>技术页面</span>-->
+        <!--</div>-->
+        <!--<div class="js-body">-->
+            <!--<div class="body-img">-->
+                <!--<div class="img-div">-->
+                    <!--<img src="../res/1001.png">-->
+                <!--</div>-->
+                <!--<div class="img-div">-->
+                    <!--<img src="../res/1002.png">-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="body-msg">-->
+                <!--&lt;!&ndash;<div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span>上传记录</span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="js-list">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<p>哒哒哒上传了一张管护图片</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+            <!--</div>-->
+
+        <!--</div>-->
+    <!--</div>-->
+<!--</body>-->
 <script>
+    function jumpToJishu () {
+        window.open("table.html");
+    }
     $(document).ready(function(){
 
-        var name1 = new Array("王尼玛","小和尚","陆巡","蒋介石");
-        var name2 = new Array("管护图片","雨量信息","维修图片","施工信息");
-
-        setInterval(function(){
-            $(".js-list").append("<p>"+name1[Math.ceil(Math.random()*3)]+"上传了"+name2[Math.ceil(Math.random()*3)]+"</p>")
-        },1000);
+//        var name1 = new Array("王尼玛","小和尚","陆巡","蒋介石");
+//        var name2 = new Array("管护图片","雨量信息","维修图片","施工信息");
+//
+//        setInterval(function(){
+//            $(".js-list").append("<p>"+name1[Math.ceil(Math.random()*3)]+"上传了"+name2[Math.ceil(Math.random()*3)]+"</p>")
+//        },1000);
     })
 </script>
 </html>
