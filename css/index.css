@@ -172,9 +172,18 @@
   border:1px solid #000;
   overflow-y: auto;
 }
+.dialogue-div {
+  width: auto;
+  height: 200px;
+  border: 1px solid #000;
+  overflow-y: auto;
+}
 
 
 /* table.html */
 .table-img > img {
   width: 1080px;
+}
+.table-div {
+  margin: auto;
 }

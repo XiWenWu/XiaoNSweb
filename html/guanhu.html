@@ -31,7 +31,12 @@
         </div>
     </div>
     <div style="clear: both;"></div>
-
+    <div class="js-dialogue">
+        <h3>上传记录详情</h3>
+        <div class="dialogue-div">
+            <p>哒哒哒上传了一张管护图片</p>
+        </div>
+    </div>
     <div class="i-bottom">
         <p>武汉云水信息技术有限公司版权所有 鄂ICP备16009961号-2</p>
     </div>
@@ -40,6 +45,31 @@
 </body>
 <script>
     $(document).ready(function(){
+
+        var name1 = new Array("张三丰","李四拐","王老五","店小六");
+        var name2 = new Array("管护图片","雨量信息","维修图片","施工信息","实时汛情");
+
+        setInterval(function(){
+            var str = stringFormat();
+            $(".dialogue-div").append(str);
+            $(".dialogue-div > p").click(function(){
+                window.open("save-pro.html");
+            });
+        },2000);
+
+        function stringFormat(){
+            var str;
+            var pis1 = name1[Math.ceil(Math.random()*3)];
+            var pis2 = name2[Math.ceil(Math.random()*4)];
+            if (pis2 == "实时汛情") {
+                str = "<p style='color: red;'>"+pis1+"上传了"+pis2+"</p>"
+            } else {
+                str = "<p>"+pis1+"上传了"+pis2+"</p>"
+            }
+
+            return str;
+        }
+
 
     })
 </script>
