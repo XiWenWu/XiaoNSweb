@@ -187,3 +187,173 @@
 .table-div {
   margin: auto;
 }
+/***************/
+/* index2.html */
+/***************/
+body {
+  background-color: lightgray;
+}
+.content {
+  text-align: center;
+}
+.first-view {
+  margin: auto;
+  width: 1200px;
+  height: 80px;
+  /*background-color: red;*/
+  text-align: left;
+  position: relative;
+  background-color: #ffffff;
+}
+.first-view > .logo-view {
+  width: 400px;
+  height: 80px;
+  /*background-color: #0e90d2;*/
+}
+.first-view > .logo-view > img {
+  width: 190px;
+  height: 60px;
+  margin: 10px;
+}
+.first-view > .logo-view > .logo-msg {
+  width: 200px;
+  height: 60px;
+  margin: 10px 0px;
+  position: absolute;
+  left: 220px;
+  top: 10px;
+}
+.first-view > .logo-view > .logo-msg > span {
+  line-height: 20px;
+  border-left: 2px solid #999999;
+  font-size: 16px;
+  padding-left: 8px;
+  color: #999999;
+}
+.first-view > .list-view {
+  width: 300px;
+  height: 80px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  /*background-color: #00ee00;*/
+}
+.first-view > .list-view > ul {
+
+}
+.first-view > .list-view > ul span {
+  line-height: 50px;
+  font-size: 18px;
+}
+.second-view {
+  margin: auto;
+  width: 1200px;
+  height: 240px;
+}
+.second-view > .view-bg {
+  position: absolute;
+}
+.second-view > .view-detail {
+  position: absolute;
+  text-align: left;
+  padding-left: 60px;
+}
+.second-view > .view-detail > .span-1 {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 60px;
+}
+.second-view > .view-detail > .span-2 {
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 60px;
+}
+.second-view > .view-detail > ul > .detail-btn {
+  margin: 10px;
+  text-align: center;
+}
+.second-view > .view-detail > ul > .detail-btn > span {
+  line-height: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.third-view {
+  margin: auto;
+  width: 1200px;
+  background-color: #ffffff;
+  text-align: left;
+}
+.third-view-title {
+  font-size: 30px;
+  padding-left: 50px;
+  line-height: 60px;
+}
+.third-view > .view-problem > img {
+  margin: 0 0 50px 80px;
+}
+.third-view > .view-problem > .all-problem {
+  float: right;
+  position: relative;
+  width: 700px;
+}
+.third-view > .view-problem > .all-problem > span {
+  line-height: 60px;
+  font-size: 18px;
+  float: right;
+  padding-right: 20px;
+}
+.third-view > .view-problem > .all-problem > .problems {
+  width: 700px;
+  height: 30px;
+  float: right;
+}
+.third-view > .view-problem > .all-problem > .problems > div {
+  width: 200px;
+  height: 30px;
+  background: linear-gradient(to right, #3d72c1 , #45a4ff);
+  float: right;
+}
+.third-view > .view-problem > .all-problem > .problems > span {
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 5px;
+  color: #ffffff;
+}
+.third-view > .view-problem > .all-problem > .problems > div > span {
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+.fourth-view {
+  margin: auto;
+  width: 1200px;
+  text-align: left;
+  background-color: #ffffff;
+}
+.fourth-view > .all-btn {
+  width: 1200px;
+  height: 300px;
+  background-color: #0e90d2;
+  position: relative;
+}
+.fourth-view > .all-btn > .demo-btn {
+  position: absolute;
+  width: 128px;
+  text-align: center;
+}
+.btn-one {
+  left: 45%;
+}
+.btn-two {
+  left: 25%;
+}
+.btn-three {
+  left: 65%;
+}
+
+
+
+
+
+
