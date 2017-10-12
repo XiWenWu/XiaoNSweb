@@ -172,12 +172,7 @@
   border:1px solid #000;
   overflow-y: auto;
 }
-.dialogue-div {
-  width: auto;
-  height: 200px;
-  border: 1px solid #000;
-  overflow-y: auto;
-}
+
 
 
 /* table.html */
@@ -191,7 +186,7 @@
 /* index2.html */
 /***************/
 body {
-  background-color: lightgray;
+  background-color: #eeffee;
 }
 .content {
   text-align: center;
@@ -244,6 +239,13 @@ body {
 .first-view > .list-view > ul span {
   line-height: 50px;
   font-size: 18px;
+}
+.first-view > .top-view-line {
+  position: absolute;
+  top: 79px;
+  width: 1200px;
+  height: 1px;
+  background-color: #999999;
 }
 .second-view {
   margin: auto;
@@ -333,14 +335,21 @@ body {
 }
 .fourth-view > .all-btn {
   width: 1200px;
-  height: 300px;
-  background-color: #0e90d2;
+  height: 168px;
+  background-color: #FFFFFF;
   position: relative;
 }
 .fourth-view > .all-btn > .demo-btn {
   position: absolute;
   width: 128px;
   text-align: center;
+}
+.fourth-view > .all-btn > .demo-btn > img {
+  width: 128px;
+}
+.fourth-view > .all-btn > .demo-btn > span {
+  line-height: 40px;
+  font-size: 20px;
 }
 .btn-one {
   left: 45%;
@@ -351,9 +360,133 @@ body {
 .btn-three {
   left: 65%;
 }
-
-
-
+.bottom-view {
+  margin: auto;
+  height: 80px;
+  width: 1200px;
+  background-color: #ffffff;
+}
+.bottom-view > p {
+  font-size: 20px;
+  line-height: 80px;
+}
+/***************/
+/* guanli.html */
+/***************/
+.second-view-gl {
+  text-align: left;
+  margin: auto;
+  width: 1200px;
+  height: 550px;
+  position: relative;
+  background-color: #ffffff;
+}
+.second-view-gl > span {
+  line-height: 50px;
+  font-size: 30px;
+  color: #999999;
+  padding-left: 50px;
+}
+.gl-xiaoxi {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 320px;
+  height: 220px;
+  /*background-color: #0e90d2;*/
+}
+.gl-xiaoxi > .second-view-gl-title, .gl-xianchang > .second-view-gl-title, .gl-gongcheng > .second-view-gl-title {
+  color: #58a3f2;
+  font-size: 26px;
+  line-height: 50px;
+}
+.gl-xiaoxi > .second-view-gl-msg, .gl-xianchang > .second-view-gl-msg, .gl-gongcheng > .second-view-gl-msg  {
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+}
+.gl-xiaoxi > .second-view-gl-title, .gl-xianchang > .second-view-gl-title {
+  position: absolute;
+  right: 0px;
+}
+.gl-xiaoxi > .second-view-gl-msg, .gl-xianchang > .second-view-gl-msg {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+.gl-xianchang {
+  position: absolute;
+  top: 370px;
+  left: 50px;
+  width: 320px;
+  height: 220px;
+  /*background-color: #00ee00;*/
+}
+.gl-gongcheng {
+  position: absolute;
+  top: 240px;
+  right: 50px;
+  width: 320px;
+  height: 220px;
+  /*background-color: #1f6377;*/
+}
+.gl-pic {
+  position: absolute;
+  left: 420px;
+  top: 50px;
+  width: 360px;
+  height: 480px;
+  text-align: center;
+}
+.gl-pic > img {
+  width: 360px;
+  height: 480px;
+}
+.third-view-gl {
+  text-align: left;
+  margin: auto;
+  width: 1200px;
+  height: 240px;
+  position: relative;
+  background-color: #ffffff;
+}
+.dialogue-div {
+  width: auto;
+  height: 200px;
+  margin: 0 50px;
+  border: 1px solid #000;
+  overflow-y: auto;
+}
+.third-view-gl > span {
+  line-height: 50px;
+  font-size: 30px;
+  color: #999999;
+  padding-left: 50px;
+}
+/***************/
+/* xinxi.html */
+/***************/
+.second-view-xx {
+  margin: auto;
+  width: 1200px;
+  position: relative;
+  background-color: #ffffff;
+  text-align: left;
+}
+.second-view-xx > div > span {
+  line-height: 50px;
+  font-size: 30px;
+  color: #999999;
+  padding-left: 50px;
+}
+.second-view-xx > div > button {
+  float: right;
+  margin: 10px 20px;
+}
+.second-view-xx > div > button > img {
+  width: 16px;
+  height: 16px;
+}
 
 
 

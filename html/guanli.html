@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>XiaoNSWeb</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body class="">
+    <div class="content">
+        <div class="first-view">
+            <div class="logo-view">
+                <img src="../res/logo.png">
+                <div class="logo-msg">
+                    <span>启于创新 卓于超越</span><br>
+                    <span>做最专业的云服务公司</span>
+                </div>
+            </div>
+            <div class="list-view">
+                <ul class="nav navbar-nav">
+                    <li class="active" onclick=jumpToIndex()><a><span>首页</span></a></li>
+                    <li class="dropdown"><a><span>移动办公</span></a></li>
+                    <li class="dropdown"><a><span>数据管理</span></a></li>
+                </ul>
+            </div>
+            <div class="top-view-line"></div>
+        </div>
+        <div class="second-view-gl">
+            <span>移动端上报</span>
+            <div class="gl-xiaoxi">
+                <span class="second-view-gl-title">消息</span><br>
+                <span class="second-view-gl-msg">接受查询通知、公告、山洪预警信息</span>
+            </div>
+            <div class="gl-xianchang">
+                <span class="second-view-gl-title">现场拍照</span><br>
+                <span class="second-view-gl-msg">管护、维修照片上传</span>
+            </div>
+            <div class="gl-gongcheng">
+                <span class="second-view-gl-title">工程信息查询</span><br>
+                <span class="second-view-gl-msg">包括:水库、河道、饮水安全、堰塘、提水站、河涵、分水闸、渠道等工程详情</span>
+            </div>
+            <div class="gl-pic">
+                <img src="../demo/guanli-phone.png">
+            </div>
+        </div>
+        <div class="third-view-gl">
+            <span>上传记录详情</span>
+            <div class="dialogue-div">
+                <span>哒哒哒上传了一张管护图片</span><br>
+            </div>
+        </div>
+        <div class="fourth-view-gl">
+        </div>
+        <div class="bottom-view">
+            <p>武汉云水信息技术有限公司版权所有 鄂ICP备16009961号-2</p>
+        </div>
+    </div>
+</body>
+<script>
+    function jumpToIndex () {
+        // window.open("html/jishu.html");
+        self.location = "../index.html";
+    }
+    $(document).ready(function(){
+
+        var name1 = new Array("张三丰","李四拐","王老五","店小六");
+        var name2 = new Array("管护图片","雨量信息","维修图片","施工信息","实时汛情");
+
+        setInterval(function(){
+            var str = stringFormat();
+            $(".dialogue-div").append(str);
+            $(".dialogue-div > span").click(function(){
+                window.open("xiangqing.html");
+            });
+        },2000);
+
+        function stringFormat(){
+            var str;
+            var pis1 = name1[Math.ceil(Math.random()*3)];
+            var pis2 = name2[Math.ceil(Math.random()*4)];
+            if (pis2 == "实时汛情") {
+                str = "<span style='color: red;'>"+pis1+"上传了"+pis2+"</span><br>"
+            } else {
+                str = "<span>"+pis1+"上传了"+pis2+"</span><br>"
+            }
+
+            return str;
+        }
+
+
+    })
+</script>
+</html>
