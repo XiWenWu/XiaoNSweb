@@ -279,6 +279,11 @@ body {
   font-size: 14px;
   color: #ffffff;
 }
+.second-view > .view-detail > ul > .detail-btn > img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
 .third-view {
   margin: auto;
   width: 1200px;
@@ -291,7 +296,8 @@ body {
   line-height: 60px;
 }
 .third-view > .view-problem > img {
-  margin: 0 0 50px 80px;
+  width: 400px;
+  margin: 0 0 50px 100px;
 }
 .third-view > .view-problem > .all-problem {
   float: right;

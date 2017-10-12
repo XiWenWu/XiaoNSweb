@@ -32,24 +32,25 @@
                 <img style="width: 1200px;" src="demo/background.jpg">
             </div>
             <div class="view-detail">
+                <div style="height: 30px;"></div>
                 <span class="span-1">用新技术助理农村管理体制改革</span><br>
                 <span class="span-2">远安县水利工程信息管理介绍系统</span><br>
                 <ul class="nav navbar-nav">
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
-                    <li class="detail-btn"><img src="demo/all.png"><br><span>信息建库</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-xiangqing.png"><br><span>信息建库</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-wendang.png"><br><span>档案管理</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-gupiao.png"><br><span>合同管理</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-biji.png"><br><span>在线普查</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-xianshiqi.png"><br><span>维修审批</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-jianguan.png"><br><span>管护监管</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-zijing.png"><br><span>资金监管</span></li>
+                    <li onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" class="detail-btn"><img src="res/icon-baogao.png"><br><span>年度报告</span></li>
                 </ul>
             </div>
         </div>
         <div class="third-view">
             <span class="third-view-title">实际工作中面临的问题</span>
             <div class="view-problem">
-                <img src="demo/test2.png">
+                <img src="demo/icon-sanjiao.png">
                 <div class="all-problem">
                     <div class="problems">
                         <div><span>问题一</span></div>
@@ -71,15 +72,15 @@
             <span class="third-view-title">解决方案</span>
             <div class="all-btn">
                 <div class="demo-btn btn-one" onclick=jumpToGuanli()>
-                    <img src="demo/icon-pc.png">
+                    <img onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" src="demo/icon-pc.png">
                     <span>管理自动化</span>
                 </div>
                 <div class="demo-btn btn-two" onclick=jumpToXinxi()>
-                    <img src="demo/icon-pc.png">
+                    <img onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" src="demo/icon-gps.png">
                     <span>信息化管理</span>
                 </div>
                 <div class="demo-btn btn-three" onclick=jumpToYingyong()>
-                    <img src="demo/icon-gps.png">
+                    <img onmouseover="changeOpacity(this)" onmouseout="normalOpacity(this)" src="demo/icon-gps.png">
                     <span>移动端应用</span>
                 </div>
             </div>
@@ -90,6 +91,12 @@
     </div>
 </body>
 <script>
+    function changeOpacity (img) {
+        img.style.opacity = 0.7;
+    }
+    function normalOpacity (img) {
+        img.style.opacity = 1;
+    }
     function jumpToXinxi () {
         // window.open("html/weixiu.html");
         self.location = "html/xinxi.html"
