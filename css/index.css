@@ -336,36 +336,69 @@ body {
 .fourth-view {
   margin: auto;
   width: 1200px;
+  height: 350px;
   text-align: left;
   background-color: #ffffff;
+  position: relative;
+}
+.fourth-view > .fourth-view-bg {
+  position: absolute;
+  width: 1200px;
+  height: 185px;
+  top: 165px;
+  background-color: #e4e4e4;
 }
 .fourth-view > .all-btn {
-  width: 1200px;
-  height: 168px;
-  background-color: #FFFFFF;
-  position: relative;
 }
 .fourth-view > .all-btn > .demo-btn {
   position: absolute;
-  width: 128px;
+  width: 220px;
+  height: 300px;
   text-align: center;
 }
-.fourth-view > .all-btn > .demo-btn > img {
-  width: 128px;
+.fourth-view > .all-btn > .btn-one > img, .fourth-view > .all-btn > .btn-three > img {
+  width: 120px;
+  height: 120px;
+  margin: 50px 50px 0 50px;
+}
+.fourth-view > .all-btn > .btn-two > img {
+  width: 220px;
+  height: 220px;
 }
 .fourth-view > .all-btn > .demo-btn > span {
   line-height: 40px;
   font-size: 20px;
 }
 .btn-one {
-  left: 45%;
+  position: absolute;
+  left: 270px;
 }
 .btn-two {
-  left: 25%;
+  position: absolute;
+  left: 490px;
 }
 .btn-three {
-  left: 65%;
+  position: absolute;
+  left: 710px;
 }
+/*.btn-one {*/
+  /*left: 25%;*/
+/*}*/
+/*.btn-one > img {*/
+  /*width: 128px;*/
+/*}*/
+/*.btn-two > img {*/
+  /*width: 220px;*/
+/*}*/
+/*.btn-three > img {*/
+  /*width: 128px;*/
+/*}*/
+/*.btn-two {*/
+  /*left: 45%;*/
+/*}*/
+/*.btn-three {*/
+  /*left: 65%;*/
+/*}*/
 .bottom-view {
   margin: auto;
   height: 80px;
@@ -383,9 +416,10 @@ body {
   text-align: left;
   margin: auto;
   width: 1200px;
-  height: 550px;
+  height: 600px;
   position: relative;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-image: url("../res/bg-xinxi.png");
 }
 .second-view-gl > span {
   line-height: 50px;
@@ -492,6 +526,23 @@ body {
 .second-view-xx > div > button > img {
   width: 16px;
   height: 16px;
+}
+
+.third-view-bg {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+  background-color: #ffffff;
+}
+.third-view-bg > .top-bg {
+  width: 1200px;
+  height: 40px;
+
+}
+.third-view-bg > .bottom-bg {
+  width: 1200px;
+  height: 60px;
+  background-color: #5689e7;
 }
 
 
